@@ -1,4 +1,20 @@
+# Ignorer les fichiers et répertoires générés par RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignorer les dossiers de données brutes et traitées
+data/raw/
+data/processed/
+
+# Ignorer les fichiers de sortie comme les modèles et les graphiques
+outputs/
+
+# Ignorer les fichiers temporaires de R
+*.Rhistory
+*.RData
+
+# Ignorer le dossier .Rproj (si vous utilisez RStudio)
+*.Rproj
+
